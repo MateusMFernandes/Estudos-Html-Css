@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a { 
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial::after {
+                content:"❰";
+        }
+        .especial::before{
+            content:"❱";
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com links</h1>
+    <ul>
+        <li><a href="https://github.com/MateusMFernandes" class="especial" target="_blank">GitHub</a></li>
+        <li><a href="https://pt-br.facebook.com/mateus.moura.583" target="_blank">Facebook</a></li>
+        <li><a href="https://emojipedia.org/" target="_blank">Emojipedia</a></li>
+    </ul>
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+* {
+    height: 90%;
+}
+body{
+     background-image: linear-gradient(to bottom, #280315 30%, #420c24, #5f0823);
+     background-attachment: fixed;
+}
+h1{
+    color: #f08233;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}

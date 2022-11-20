@@ -1,0 +1,30 @@
+@charset "UTF-8";
+* {  
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: linear-gradient(to right,  #280315 30%, #420c24, #5f0823); 
+}
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 3px 3px 3px;
+    box-shadow: 5px 5px 10px #1b020ef3;
+    margin: auto;
+}
+p {
+    text-align: justify;
+}
+h1{
+    color: #f17217;
+    text-shadow: 1px 1px 2px #5f2d099f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: #790727;
+}
+h3{
+    color: #790727;
+}

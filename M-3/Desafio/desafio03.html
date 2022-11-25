@@ -17,8 +17,14 @@
             border: 1px solid black;
             padding: 10px;
         }
-        th {
-            bac
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        .dado {
+            background-color: gray;
+            color: white;
+            text-align: left;
         }
     </style>
 </head>
@@ -39,7 +45,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <th rowspan="4">Exatas</th>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
                     <td>Matematica</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -64,11 +70,11 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Medias Exatas</th>
-                    <td>0.0</td>
+                    <th colspan="4" scope="col" class="dado">Medias Exatas</th>
+                    <td class="dado">0.0</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
                     <td>Historia</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -81,14 +87,10 @@
                         <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Medias Exatas</th>
-                    <td>0.0</td>
+                    <th colspan="4" scope="col" class="dado">Medias Humanas</th>
+                    <td class="dado">0.0</td>
                 </tr>
             </tbody>
-            <tfoot>
-
-            </tfoot>
-
         </table>
 </body>
 </html>

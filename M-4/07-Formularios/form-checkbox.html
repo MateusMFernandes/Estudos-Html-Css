@@ -7,7 +7,7 @@
     <title>Formulario com checkbox</title>
     <style>
         *{
-            font-family: ;
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -15,18 +15,37 @@
     <h1>Marque as opção a baixo</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
-            <legend>Esporte Favorito</legend>
-                <input type="checkbox" name="esfut" id="">Futebol
-                <input type="checkbox" name="esvol" id="">Volei
-                <input type="checkbox" name="esbas" id="">Baskete
-                <input type="checkbox" name="estenis" id="">Tenis
-                <input type="checkbox" name="espin" id="">Ping-Pong
-                <input type="checkbox" name="escor" id="">Corrida
-                <input type="checkbox" name="" id="">
-                <input type="checkbox" name="" id="">
-                <input type="checkbox" name="" id="">
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas" value="M"><label for="imas">Masculino</label><br>
+            <input type="radio" name="sexo" id="ifem" value="F"><label for="ifem">Feminino</label>
 
         </fieldset>
+        <fieldset>
+            <legend>Esporte Favorito</legend>
+                <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label><br>
+                <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Volei</label><br>
+                <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Baskete</label><br>
+                <input type="checkbox" name="estenis" id="iestenis"><label for="iestenis">Tenis</label><br>
+                <input type="checkbox" name="espin" id="iespin"><label for="iespin">Ping-Pong</label><br>
+                <input type="checkbox" name="escor" id="iescor"><label for="iescor">Corrida</label><br>
+                <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label>
+        </fieldset><br>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="icolor" id="">
+            </p>
+            <p>
+                <label for="iniv">Nivel de satisfação:</label>
+                <input type="range" name="nivel" id="inivel">
+            </p>
+            <p>
+                <label for="ifoto">Foto de perfil:</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
     </form>
 </body>
 </html>

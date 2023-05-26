@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de escolha</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iest">Estado:</label>
+                <select name="estado" id="iest">
+                   <option value="" selected>---Escolha um estado---</option> 
+                    <optgroup label="Região">
+                        <option value="pr">Paraná</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pe">Pernanbuco</option>
+                        <option value="sc">Santa Catarina</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="ipro">Profissao:</label>
+                <input type="text" name="profissao" id="ipro" list="ispro">
+                <datalist id="ispro">
+                    <option>Professor</option>
+                    <option value="dev">Desenvolvedor</option>
+                    <option>Vendedor</option>
+                    <option>Empresario</option>
+                    <option>Influencer</option>
+                </datalist>
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </form>
+</body>
+</html>

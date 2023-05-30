@@ -13,3 +13,9 @@ html{
 menu {
     display: none;
 }
+article::after{
+    content: "Esse conteudo foi criado dia 30/05/23 por Curso em video";
+}
+article {
+    width: 100%;
+}

@@ -1,3 +1,7 @@
 @charset "UTF-8";
+/* Para medias em modo paisagem=portrait */ 
 
-/* Para medias em modo paisagem */ 
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}

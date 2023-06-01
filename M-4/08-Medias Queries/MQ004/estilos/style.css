@@ -24,6 +24,7 @@ main{
     border-radius: 10px;
 }
 h1 {
+    text-align: center;
     font-size: 2em;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);

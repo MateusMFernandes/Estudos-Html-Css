@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body onresize="">
+<body onresize=" Tamanho() ">
     <header>
         <h1>Meu site adaptavel</h1>
         <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
@@ -35,7 +35,16 @@
         </article>
     </main>
     <script>
-        function clickMenu() {
+        function Tamanho() {
+            if (window.innerWidth >= 760) { /*Tamanho da tela para aparecer o menu hamburguer*/
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clickMenu() { /*Para clicar no menu hamburguinho*/
           if  (itens.style.display == 'block') {
                 itens.style.display = 'none'
             } else {
